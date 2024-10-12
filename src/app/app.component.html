@@ -1,0 +1,16 @@
+<div class="container-fluid p-0 m-0">
+  <header>
+    <nav>
+      <a (click)="scrollToComponent('first')">First Component</a>
+      <a (click)="scrollToComponent('second')">Second Component</a>
+    </nav>
+  </header>
+
+  <div #firstComponent>
+    <app-first-component></app-first-component>
+  </div>
+
+  <div #secondComponent>
+    <app-second-component></app-second-component>
+  </div>
+</div>
